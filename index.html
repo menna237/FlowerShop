@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Flower Shop</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+    
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1><span style="color: #be3a66;"> Welcome to</span> Flower Shop</h1>
+            <p>Discover the beauty of fresh flowers and elegant arrangements.</p>
+            <a href="#services" class="btn">Explore Services</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <img src="images/2.png" alt="Bouquet Icon">
+                    </div>
+                    <h3>Bouquet Arrangements</h3>
+                    <p>Beautifully crafted bouquets for every occasion.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <img src="images/3.jpg" alt="Wedding Icon">
+                    </div>
+                    <h3>Wedding Decor</h3>
+                    <p>Elegant floral decorations for your special day.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <img src="images/4.png" alt="Event Icon">
+                    </div>
+                    <h3>Event Planning</h3>
+                    <p>Floral arrangements for corporate events and parties.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="./images/images (1).jpeg" alt="Flower 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/images (2).jpeg" alt="Flower 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/images (3).jpeg" alt="Flower 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/images (4).jpeg" alt="Flower 4">
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/images.jpeg" alt="Flower 5">
+                </div> 
+                <div class="gallery-item">
+                    <img src="./images/images.jpeg" alt="Flower 5">
+                </div> 
+                
+              
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content-wrapper">
+                <div class="about-image">
+                    <img src="images/1webp.webp" alt="About Us Image">
+                </div>
+                <div class="about-content">
+                    <h2>About Us</h2>
+                    <p>
+                        At <span class="highlight">Flower Shop</span>, we bring your floral dreams to life. With years of experience, we take pride in providing high-quality arrangements and exceptional customer service.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <h1  class="cc">Contact Us</h1>
+    <!-- Contact Section -->
+     
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-details">
+                <h2 class="section-title">Contact Details</h2>
+                <ul>
+                    <li><strong>Address:</strong> Tanta Street, Downtown</li>
+                    <li><strong>Phone:</strong> +123 456 789</li>
+                    <li><strong>Business Hours:</strong> Sat - Fri: 9:00 AM - 6:00 PM</li>
+                </ul>
+            </div>
+
+
+            <div class="contact-form">
+                <h2 class="section-title">Contact </h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Write your message here" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Flower Shop.Created By Mena Hisham.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
